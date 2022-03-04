@@ -1,0 +1,44 @@
+.col-style{
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px !important;
+}
+
+.col-sub-menu{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0px 10px !important;
+    width:"100%"
+}
+
+.col-sub-menu:hover{
+    background-color: black;
+    color: white;
+}
+
+.para{
+    margin: 0;
+    text-transform: uppercase;
+    width: "100%";
+    width: 100%;
+}
+
+.selected{
+    border: 1px solid;
+}
+
+button:focus:not(:focus-visible) {
+    outline: none !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white !important; 
+    border-color: none !important;
+}
